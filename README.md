@@ -2,23 +2,23 @@
 ## Overview 
 The QIA_db database is a comprehensive school information system designed to manage and analyze academic, administrative, and performance-related data for a school. It integrates multiple core components including:
 
-###### Academic Structure: academic_years, departments, subjects, and exams
+##### Academic Structure: academic_years, departments, subjects, and exams
 
-###### Human Resources: staff, including teachers, heads, and administrators
+##### Human Resources: staff, including teachers, heads, and administrators
 
-###### Student Management: students, classes, attendance, and exam_results
+##### Student Management: students, classes, attendance, and exam_results
 
-###### Scheduling: class_subjects links classes, subjects, and teachers with specific timings
+##### Scheduling: class_subjects links classes, subjects, and teachers with specific timings
 
 A variety of analytical queries provide actionable insights such as:
 
-###### Student performance trends
+##### Student performance trends
 
-###### Attendance tracking
+##### Attendance tracking
 
-###### Teacher workload analysis
+##### Teacher workload analysis
 
-###### Class-wise and subject-wise academic insights
+##### Class-wise and subject-wise academic insights
 
 ###### Identification of at-risk students
 
@@ -369,7 +369,7 @@ ORDER BY Teacher_name;
 ```
 #### 15.List all exams scheduled for the current academic year with their date ranges.
 ``` sql
-SELECT         e.exam_name,ay.year_name,e.start_date,e.start_date,ay.is_current
+SELECT         e.exam_name,ay.year_name,e.start_date,ay.is_current
 FROM exams e 
 JOIN academic_years ay ON ay.year_id=e.academic_year_id
 WHERE ay.is_current=TRUE
