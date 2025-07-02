@@ -1,0 +1,4 @@
+class_name,present_percentage,absent_late_percentage
+"Grade 1A",75.00,25.00
+"Grade 2B",0.00,100.00
+"Grade 3A",NULL,NULL

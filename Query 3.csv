@@ -1,0 +1,4 @@
+class_name,schedule_day,schedule_time,subject_name,Teacher_name
+"Grade 1A",Sunday,08:00:00,Mathematics,"Khalid Hassan"
+"Grade 1A",Monday,08:00:00,Science,"Fatima Ahmed"
+"Grade 1A",Tuesday,09:30:00,English,"Yousef Mahmoud"
