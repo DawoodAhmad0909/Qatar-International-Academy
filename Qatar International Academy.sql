@@ -357,7 +357,7 @@ WHERE
 ORDER BY Teacher_name;
 
 SELECT 
-	e.exam_name,ay.year_name,e.start_date,e.start_date,ay.is_current
+	e.exam_name,ay.year_name,e.start_date,ay.is_current
 FROM exams e 
 JOIN academic_years ay ON ay.year_id=e.academic_year_id
 WHERE ay.is_current=TRUE
